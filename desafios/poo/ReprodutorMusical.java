@@ -1,3 +1,4 @@
+package desafios.poo;
 public interface ReprodutorMusical {
     
     void tocar();

@@ -1,3 +1,4 @@
+package desafios.poo;
 public class Iphone implements AparelhoTelefonico, ReprodutorMusical, NavegadorInternet{
 
     // Métodos da interface ReprodutorMusical
