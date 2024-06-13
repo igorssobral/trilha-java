@@ -41,3 +41,6 @@ classDiagram
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
 ```
+
+**Implementação das Classes**
+   - As classes implementadas desse desafio `README.md` estão nessa mesma pasta, junto com o diagrama UML.
