@@ -23,6 +23,7 @@ public abstract class Conta implements IConta {
 
 	@Override
 	public void sacar(double valor) throws Exception {
+		/// Valida se tem saldo suficiente pro saque
 		if (saldo >= valor) {
 			saldo -= valor;
 		} else {
@@ -38,6 +39,7 @@ public abstract class Conta implements IConta {
 
 	@Override
 	public void transferir(double valor, IConta contaDestino) {
+		/// Em caso de transferência com valor acima do saldo da conta lança exceção!
 		try {
 			this.sacar(valor);
 			contaDestino.depositar(valor);
